@@ -210,3 +210,37 @@
         width: 27%;
     }
 }
+@media only screen and (max-width:378px) {
+    .location {
+        float: left;
+        width: 100% !important;
+    }
+    .Info {
+    
+        margin-left: 0px !important;
+        margin-top: 27px;
+        width: 100% !important;
+    }
+    .telphone {
+     margin-top: 10px;
+        width: 100% !important;
+    }
+    .top-section {
+        width: 80%;
+    }
+    .service {
+        width: 74% !important;
+    }
+    .wrap {
+        width: 82% !important;
+        margin: auto;
+    }
+    .telphone p{
+        margin-bottom: 0.1rem;
+    }
+    .op-01 i {
+        color: #22c3a3;
+        margin-bottom: 10px;
+    }
+ 
+}
