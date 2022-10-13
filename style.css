@@ -1,0 +1,215 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+ /* clear float */
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+/* header logo */
+header{
+    width: 100%;
+   background: #22c3a3;
+   padding-top: 10px;
+}
+header .logo{
+    margin-left: 15px;
+    width: 22%;
+    float: left;
+    display: inline-block;
+}
+nav {
+    width: 64%;
+    margin-left: 275px;
+}
+nav ul {
+    list-style: none;
+    float: right;
+}
+nav ul li{
+    display: inline-block;
+    margin-left: 30px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+/* header end */
+
+/* banner start */
+.banner{
+    background-image: url(https://i.ibb.co/jwYqYyJ/header-bg01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom bottom;
+    padding: 160px 0px;
+    background-attachment: fixed;
+}
+.banner a{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 5px 20px;
+    margin-top: 10px;
+    transition: all .5s;
+    border-radius: 2px;
+}
+.banner a:hover{
+    background-color: black;
+    color: #fff;
+  border: 1px solid #22c3a3;
+  font-weight: 500;
+  border-radius: 5px;
+
+}
+/* banner end */
+
+/* service start */
+.service{
+    width: 100%;
+}
+.service .service-part-01 h3{
+    font-weight: 600;
+}
+.service-part-02{
+    width: 100%;
+}
+.web-design .logo {
+    font-size: 35px;
+    color: #22c3a3;
+}
+.web-design h4{
+    font-size: 20px;
+}
+.op{
+    width: 20%;
+    margin: auto;
+}
+.web{
+    float: left;
+    margin-left: 20px;
+}
+.graphic{
+    float: left;
+    margin-left: 40px;
+}
+.app {
+    float: left;
+    margin-left: 70px;
+}
+.digital{
+    float: left;
+    margin-left: 58px;
+}
+/* service end */
+
+
+/* about start */
+.line {
+    
+    border-top: 2px solid #22c3a3;
+    padding: 50px 0px;
+}
+.bottom-section {
+    width: 100%;
+    margin: auto;
+}
+.bottom-section .left-img {
+    width: 45%;
+    float: left;
+}
+.bottom-section .left-img img {
+    width: 100%;
+    margin-left: 25px;
+}
+.content001{
+    font-size: 10px;
+    width: 50%;
+    float: right;
+}
+/* about end */
+
+/* contect start */
+.contect-Us{
+    background-color: #f6f6f6;
+    padding: 100px 0px;
+}
+.wrap{
+    width: 70%;
+    margin: auto;
+}
+.for-contact h2{
+    font-weight: 600;
+}
+.for-contact p{
+    font-size: 10px;
+}
+.bottom-section-contect{
+    padding-top: 20px;
+    margin-top: 50px;
+}
+.op-01{
+    width: 22%;
+}
+.op-01 i{
+    color: #22c3a3;
+}
+.location{
+    float: left;
+}
+.location p {
+    font-size: 13px;
+    margin-bottom: 3px;
+}
+.Info {
+    float: left;
+    margin-left: 136px;
+}
+.telphone{
+    float: right;
+}
+
+/* contect end */
+
+/* footer start */
+.footer-bottom{
+    background-color: #222222;
+    color: #ddd;
+    text-align: center;
+    padding: 1px 0px;
+}
+.footer-bottom p{
+    font-size: 20px;
+}
+.social-menuvar{
+    background-color: #22c3a3;
+    padding: 10px;
+}
+.social-menuvar ul {
+    list-style: none;
+    margin-left: -68px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.social-menuvar ul li{
+    display: inline-block;
+    margin-bottom: -10px;
+
+}
+.social-menuvar ul li a{
+    text-decoration: none;
+    color: #fff;
+    margin-left: 35px;
+    transition: all .4s;
+}
+.social-menuvar ul li a:hover{
+    color: #222222;
+    
+}
+/* footer end */

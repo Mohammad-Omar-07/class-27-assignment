@@ -1,0 +1,212 @@
+@media only screen and (max-width:800px){
+    header .logo {
+        
+        width: 100%;
+        margin-left: 0px;
+        display: inline-block;
+        text-align: center;
+    }
+    nav {
+        width: 100%;
+        margin-left: 0px;
+        text-align: center;
+    }
+    nav ul{
+        float: none;
+        padding-top: 54px;
+        padding-left: 0px;
+    }
+    .banner {
+        padding: 120px 0px;
+        
+    }
+    .banner h1 {
+        font-size: 24px;
+    }
+    .service {
+        width: 100%;
+        padding: 0px 0px !important;
+    }
+    .service-part-01 {
+        padding: 30px 0px !important;
+    }
+    .web {
+        float: left;
+        margin-left: 20px;
+        width: 49%;
+        padding-bottom: 2rem;
+    }
+    .graphic {
+        width: 48%;
+        float: left;
+        margin-left: 0px;
+    }
+    .app {
+        float: left;
+        margin-left: 77px;
+        width: 39%;
+    }
+    .digital {
+        float: left;
+        margin-left: 58px;
+        width: 37%;
+    }
+    .top-section {
+        padding: 21px 0px !important;
+    }
+    .bottom-section .left-img {
+        width: 46%;
+        float: none;
+    }
+    .content001 {
+        font-size: 12px;
+        width: 88%;
+        float: none;
+        padding: 20px 0px;
+    }
+    .contect-Us {
+        background-color: #f6f6f6;
+        padding: 33px 0px;
+    }
+    .for-contact h2 {
+        font-weight: 600;
+        font-size: 22px;
+    }
+    .for-contact p {
+        font-size: 13px;
+    }
+    .bottom-section-contect {
+        padding-top: 0px;
+        margin-top: 32px;
+    }
+    .Info {
+        float: left;
+        margin-left: 3.4rem;
+    }
+    .social-menuvar {
+        background-color: #22c3a3;
+        padding: 2px;
+    }
+    .footer-bottom {
+    
+        padding: 13px 0px 2px 0px;
+        line-height: 21px;
+    }
+    .footer-bottom p {
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width:576px){
+    .logo h4 {
+        font-size: 19px;
+        text-align: left;
+        padding-left: 52px;
+    }
+    .banner {
+        background-image: url(https://i.ibb.co/jwYqYyJ/header-bg01.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom bottom;
+        padding: 96px 0px;
+        background-attachment: fixed;
+    }
+    .banner h1 {
+        font-size: 16px;
+        padding-bottom: 8px;
+    }
+    .banner a {
+        display: inline-block;
+        text-decoration: none;
+        color: #fff;
+        border: 2px solid #fff;
+        padding: 5px 20px;
+        margin-top: 10px;
+        transition: all .5s;
+        border-radius: 19px;
+        font-size: 11px;
+    }
+    .service {
+        
+        margin-bottom: -50px;
+    }
+    .service .service-part-01 h3 {
+        font-weight: 600;
+        font-size: 18px;
+    }
+    .service-part-01 {
+        font-size: 13px;
+    }
+    .service-part-02 {
+        width: 100%;
+        font-size: 12px;
+        padding: 0 !important;
+    }
+    .web-design {
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    .web-design h4 {
+        font-size: 14px;
+    }
+    .web-design .logo {
+        font-size: 19px;
+        color: #22c3a3;
+    }
+    .web {
+        width: 100% !important;
+        margin: 0px auto !important;
+        padding-bottom: 10px;
+    }
+    .app {
+        
+        margin-left: 0px !important;
+    }
+    .digital {
+    
+        margin-left: 0px !important;
+        overflow: hidden !important;
+    }
+    .line {
+        margin-top: 81px;
+        border-top: 2px solid #22c3a3;
+        padding: 7px 0px;
+    }
+    .top-section {
+        font-size: 16px;
+        padding-top: 39px !important;
+        width: 77%;
+        margin: auto;
+    }
+    .top-section h3 {
+        font-size: 18px;
+    }
+    .bottom-section .left-img {
+        width: 100% !important;
+        float: none;
+        
+    }
+    .bottom-section .left-img img {
+        width: 68%;
+        margin-left: 32px;
+    }
+    .content001 {
+        font-size: 12px !important;
+        
+    }
+    .content001 h4 {
+        font-size: 20px;
+    }
+    .content001 p {
+        padding-bottom: 27px;
+    }
+    .wrap {
+        width: 100%;
+        margin: auto;
+    }
+    .footer-bottom p{
+        font-size: 12px !important;
+    }
+    .op-01 {
+        width: 27%;
+    }
+}
